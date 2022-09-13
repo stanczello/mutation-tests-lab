@@ -1,0 +1,4 @@
+{
+    "baseUrl": "http://the-internet.herokuapp.com",
+    "chromedriverPath": "C:\\driver\\chromedriver\\chromedriver.exe"
+}
