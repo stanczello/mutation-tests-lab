@@ -1,4 +1,10 @@
 {
     "baseUrl": "http://the-internet.herokuapp.com",
-    "chromedriverPath": "C:\\driver\\chromedriver\\chromedriver.exe"
+    
+    "browser": {
+        "browser": "Chrome",
+        "headless": false,
+        "webdriverPath": "C:\\driver\\chromedriver\\chromedriver.exe",
+        "implicit_wait": 10
+    }
 }

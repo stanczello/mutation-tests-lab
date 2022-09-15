@@ -8,4 +8,7 @@ class HomePage(BasePage):
         super().__init__(driver, config)
 
     def get_title(self):
-        self.driver.find_element(By.CSS_SELECTOR, "h1")
+        return self.driver.find_element(By.CLASS_NAME, "heading")
+
+    def get_subheader(self):
+        return self.driver.find_element(By.CSS_SELECTOR, "h2")

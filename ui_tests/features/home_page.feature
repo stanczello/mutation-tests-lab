@@ -3,8 +3,8 @@ Feature: Home Page
   
   Scenario: Verify home page contents are correct
     When I open the home page
-    # Then the page title is "Welcome to the-internet"
-  #   And the sub-header text is "Available Examples"
+    Then the page title is "Welcome to the-internet"
+    And the sub-header text is "Available Examples"
   #   And a list of the following sub-pages is displayed
   #     | name                          |
   #     | A/B Testing                   |
